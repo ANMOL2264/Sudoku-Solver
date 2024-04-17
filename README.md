@@ -7,3 +7,7 @@ This C program generates and solves Sudoku puzzles of varying difficulty levels.
 2. **Difficulty Setting**: The `setDifficulty()` function converts the fully filled grid into a puzzle by randomly removing values within specified upper and lower limits.
 3. **Puzzle Solving**: The `solve()` function, employing backtracking, solves the generated puzzle. Upon successful completion, the `transfer_solution_to_box()` function transfers solved grid values into a designated grid with character values.
 4. **Display**: Both unsolved and solved Sudoku grids are displayed, allowing users to play puzzles of varying difficulty levels. The program ensures each puzzle has a unique solution.
+
+## Ouput example on easy difficulty:
+
+![output Image](outputExample.png)
